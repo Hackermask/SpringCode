@@ -12,3 +12,10 @@ AtomicInteger
 
 原子变量提供了与volatile类型变量相同的内存语义
 
+当一个变量依赖其他变量，或者当变量的新值依赖于旧值时，就不能用volatile
+
+独占锁是一种悲观锁
+
+CAS是一种乐观的技术
+
+ReentrantLock 可重入锁
