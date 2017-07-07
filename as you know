@@ -19,3 +19,5 @@ AtomicInteger
 CAS是一种乐观的技术
 
 ReentrantLock 可重入锁
+
+ABA问题  变量的值为A  在获取该变量前  变量经历从A到B再到A的转换   取得值依旧是A
